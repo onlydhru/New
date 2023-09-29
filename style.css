@@ -6,6 +6,13 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box
+}
 
 :root {
   --bs-body-font-family: Georgia;
@@ -13,15 +20,12 @@
 
 /* Index Body */
 body {
-
+    font-family: "Raleway", sans-serif;
     background-color: #FFFFFF;
   }
-  .studentlogo {
-    
-    margin-left: 10px;
-    margin-right: 500px;
-    width: 10%;
-    
+  .studentlogo {  
+   height: 70px;
+    width: 70px; 
   }
   
 .span {
@@ -44,7 +48,7 @@ text-align: right;
   }
 .welcomeimg {
   width: 70%;
-  height: 330px;
+  height: 300px;
   border: 1px solid black;
   }
 .welcomesjc {
@@ -69,7 +73,7 @@ text-align: right;
   width: 30% !important;
   height: 40px;
   border-radius: 25px;
-  border: 1px solid blue !important;
+  border: 1px solid black !important;
 }
 .txt {
   background-color: black;
@@ -118,14 +122,10 @@ ul {
     text-align: center;
     width: 1386px;
   } 
-/* Registration Form Section */
- * {box-sizing: border-box}
-/* Add padding to containers */
 .container2 {
   font-style: arial;
   padding: 16px;
 }
-/* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
   padding: 15px;
@@ -138,12 +138,11 @@ input[type=text]:focus, input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
-/* Overwrite default styles of hr */
 hr {
+  margin: 0 !important;
   border: 1px solid #f1f1f1;
-  margin-bottom: 25px;
+  
 }
-/* Set a style for the submit/register button */
 .registerbtn {
   background-color: #04AA6D;
   color: white;
@@ -157,11 +156,9 @@ hr {
 .registerbtn:hover {
   opacity:1;
 }
-/* Add a blue text color to links */
 a {
   color: dodgerblue;
 }
-/* Set a grey background color and center the text of the "sign in" section */
 .signin {
   background-color: #f1f1f1;
   text-align: center;
@@ -170,11 +167,9 @@ a {
   font-size: small;
   font-style: italic;
 }
-  /* LOGIN */
 form {  
   border: 3px solid #f1f1f1;
 }
-/* Full-width inputs */
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -183,7 +178,6 @@ input[type=text], input[type=password] {
   border: 1px solid #ccc;
   box-sizing: border-box;
 }
-/* Set a style for all buttons */
 button {
   background-color: #04AA6D;
   color: white;
@@ -193,30 +187,25 @@ button {
   cursor: pointer;
   width: 100%;
 }
-/* Add a hover effect for buttons */
 button:hover {
   opacity: 0.8;
 }
-/* Extra style for the cancel button (red) */
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
   background-color: #f44336;
 }
-/* Avatar image */
 .avatar1 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 5%;
 }
-/* Add padding to containers */
 .container3 {
   font-size: small;
   --bs-body-font-family: arial;
   padding: 16px;
 }
-/* The "Forgot password" text */
 .container1{
  text-align: center;
  font-size: large;
@@ -245,8 +234,6 @@ footer {
   border-radius: 25px;
   border: 1px solid black !important;
 }
-
-
 .hr2 {
   height:2px;
   border-width:0;
@@ -285,4 +272,28 @@ footer {
   margin: 17px 0 12px;
   clear: both;
   display: block;
+}
+
+/* carousel */
+.carousel-item img {
+  object-fit: cover;
+  height:600px;
+  width: 100%;
+}
+.hrindex {
+background-color: #25282F;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+}
+.h5text {
+  color: #25282F;
+  font-size: 35px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+.hline {
+ border-top: 2px solid black;
+margin:none;
 }
