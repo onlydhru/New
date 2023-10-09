@@ -46,23 +46,6 @@ text-align: right;
   padding-right: 20px;
   font-size: 35px;
   }
-.welcomeimg {
-  width: 70%;
-  height: 300px;
-  border: 1px solid black;
-  }
-.welcomesjc {
- padding-left: 620px;
-}
-.bodyimg {
- padding-top: 70px;
- padding-left: 50px;
-}
-.teacher {
-  width: 70%;
-  height: 210px;
-  border: 1px solid black;
-}
 .labeltext {
   display: block;
   width: 10px;
@@ -90,9 +73,7 @@ ul {
     overflow: hidden;  
     background-color: white;  
   }  
-  li {  
-    float: left;  
-  }  
+
   li a {  
     text-align: center;
     --bs-body-font-family: arial;
@@ -234,6 +215,13 @@ footer {
   border-radius: 25px;
   border: 1px solid black !important;
 }
+.regis-input {
+  font-size: small;
+  width: 10% !important;
+  height: 40px;
+  border-radius: 25px;
+  border: 1px solid black !important;
+}
 .hr2 {
   height:2px;
   border-width:0;
@@ -245,9 +233,10 @@ footer {
   color: white;
   text-align: center;
   justify-content: center;
-  height: 30px;  
-  line-height: 30px;
+  height: 40px;  
+  line-height: 40px;
   font-family: Georgia;
+  font-size: larger;
 }
 .back {
   background-size: 100px;
@@ -277,7 +266,7 @@ footer {
 /* carousel */
 .carousel-item img {
   object-fit: cover;
-  height:600px;
+  height:550px;
   width: 100%;
 }
 .hrindex {
@@ -287,13 +276,116 @@ background-color: #25282F;
 .navlinks {
   display: flex;
   align-items: center;
+  margin-left: 10%;
 }
 .h5text {
-  color: #25282F;
+  margin-left: none;
+  color: #505F5F;
   font-size: 35px;
   font-family: Georgia, 'Times New Roman', Times, serif
 }
 .hline {
  border-top: 2px solid black;
 margin:none;
+}
+.basicedoffer {
+  background-color: #387447;
+	display: flex;
+	list-style: none;
+	justify-content: center;
+  padding: 5px;
+}
+.basicedoffer li a {
+  display: block;
+	padding: 0.75rem;
+	margin: 0.5rem 0.25rem;
+	border-radius: 0.25rem;
+	color: #000000;
+	background-color: #ffffff;
+	transition: 0.5s 
+}
+.weoffer  ul li   {
+ color: #000000;
+}
+.basicedh4  {
+margin-top: 5%;
+text-align: center;
+}
+.admiofferh4 {
+  text-align: center;
+  margin-top: 3%;
+}
+.admioffer ul li {
+color: #000000;
+}
+.img-txt img {
+  width: 50%;
+  display: block;
+  margin: 0rem auto;
+  border-radius: 1rem;
+  border: 2px solid #387447;
+}
+.img-txt p {
+  background-color: #387447;
+	color: white;
+  text-align: center;
+  margin-top: 2%;
+  width: 500px;
+  height: 50px;
+  margin-left: 33%;
+  border-radius: 0.25rem;
+  line-height: 50px;
+}
+.container {
+	background-color: #ffffffcc;
+	color: #232731;
+	padding: 2rem;
+}
+.container ul, ol {
+	padding-left: 3rem;
+}
+
+.container img {
+	width: 100%;
+	margin: 1rem 2rem 1rem 2rem;
+}
+.backgcoll {
+  background-color: #387447;
+  text-align: center;
+  width: 500px;
+  height: 30px;
+  margin-left: 33%;
+  border-radius: 0.25rem;
+  color: white;
+}
+.div-beside {
+	display: flex;
+	justify-content: space-between;
+	padding: 2rem 5%;
+	background-color: #ffffffaa;
+	text-align: center;
+}
+.div-beside-child {
+	margin: 1rem;
+	flex: 1;
+}
+.div-beside-child p {
+	text-align: center;
+}
+.indexmis {
+  background-color: #387447;
+  border-radius: 0.25rem;
+  color: white;
+}
+.div-beside-child ol li {
+  text-align: center;
+  color: black;
+}
+.historyp {
+  color: white;
+  background-color: #387447;
+  border: #387447;
+  border-radius: 0.25rem;
+  margin-left: 10%;
+  margin-right: 10%;
 }
